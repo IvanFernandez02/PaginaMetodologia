@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciberseguridad Estratégica: El Juego de la Defensa Digital</title>
+    <meta name="description" content="Descubre cómo la Teoría de Juegos transforma nuestra protección en línea. Una introducción a la ciberseguridad estratégica.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <i class="fas fa-shield-halved header-icon"></i>
+            <h1>Ciberseguridad Estratégica</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#intro">Inicio</a></li>
+                <li><a href="#conceptos">Conceptos Clave</a></li>
+                <li><a href="#casos">Casos de Estudio</a></li>
+                <li><a href="#explora">Explora Más</a></li>
+                <li><a href="#contacto-simulado">Contáctanos</a></li>
+            </ul>
+        </nav>
+        <button id="mobile-menu-button" aria-label="Abrir menú de navegación">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <main>
+        <section id="intro" class="hero">
+            <div class="hero-content">
+                <h2>Tu Guardián Digital</h2>
+                <p class="subtitle">Descubre cómo la Teoría de Juegos transforma nuestra protección en línea.</p>
+                <p>En un mundo digital cada vez más complejo, entender cómo se toman las decisiones en el ciberespacio es crucial. Esta página te introduce a la ciberseguridad desde una perspectiva estratégica, usando la teoría de juegos para desvelar las tácticas de atacantes y defensores.</p>
+                <button id="empezar-viaje-btn" class="cta-button">Empezar el Viaje</button>
+            </div>
+        </section>
+
+        <section id="conceptos">
+            <h2>Conceptos Fundamentales</h2>
+            <div class="conceptos-grid">
+                <div class="concepto-card">
+                    <i class="fas fa-chess-knight fa-2x"></i>
+                    <h3>Teoría de Juegos en Ciberseguridad</h3>
+                    <p>Es como un ajedrez digital. Estudia cómo atacantes y defensores toman decisiones racionales, anticipando los movimientos del otro para ganar ventaja.</p>
+                    <button class="toggle-info-btn" aria-expanded="false">Leer más</button>
+                    <div class="info-adicional">
+                        <p><strong>Ejemplo:</strong> Un atacante decide si lanzar un ataque costoso o uno barato, mientras el defensor decide cuántos recursos invertir en detección. Ambos buscan maximizar su "ganancia" (o minimizar su pérdida).</p>
+                    </div>
+                </div>
+                <div class="concepto-card">
+                    <i class="fas fa-broadcast-tower fa-2x"></i>
+                    <h3>Juegos de Señalización</h3>
+                    <p>Atacantes y defensores envían "señales" (acciones, información) para influir en las creencias y acciones del otro, a menudo con información incompleta.</p>
+                    <button class="toggle-info-btn" aria-expanded="false">Leer más</button>
+                    <div class="info-adicional">
+                        <p><strong>Ejemplo:</strong> Un atacante realiza un reconocimiento sigiloso (señal de bajo perfil) para no alertar al defensor, mientras un defensor podría mostrar falsas vulnerabilidades (señal engañosa) para atraer al atacante a una trampa.</p>
+                    </div>
+                </div>
+                <div class="concepto-card">
+                    <i class="fas fa-people-arrows fa-2x"></i>
+                    <h3>Defensa de Objetivo Móvil (MTD)</h3>
+                    <p>La estrategia de "no quedarse quieto". El defensor cambia dinámicamente aspectos del sistema (IPs, configuraciones) para confundir al atacante.</p>
+                    <button class="toggle-info-btn" aria-expanded="false">Leer más</button>
+                    <div class="info-adicional">
+                        <p><strong>Ejemplo:</strong> Rotar direcciones IP, cambiar puertos de servicio o incluso modificar la arquitectura interna de una aplicación dificulta que el atacante mantenga un objetivo fijo y explote vulnerabilidades conocidas.</p>
+                    </div>
+                </div>
+                <div class="concepto-card">
+                    <i class="fas fa-user-secret fa-2x"></i>
+                    <h3>Engaño y Honeypots</h3>
+                    <p>Crear trampas (honeypots) o enviar información falsa para desviar, retrasar o estudiar a los atacantes, protegiendo los sistemas reales.</p>
+                    <button class="toggle-info-btn" aria-expanded="false">Leer más</button>
+                    <div class="info-adicional">
+                        <p><strong>Ejemplo:</strong> Un servidor que simula ser vulnerable pero que en realidad está monitorizado para registrar las técnicas del atacante sin poner en riesgo los sistemas productivos.</p>
+                    </div>
+                </div>
+                <div class="concepto-card">
+                    <i class="fas fa-industry fa-2x"></i>
+                    <h3>Sistemas Ciberfísicos (CPS)</h3>
+                    <p>La unión del mundo digital y físico (fábricas inteligentes, redes eléctricas). Su seguridad es crítica por su impacto en el mundo real.</p>
+                    <button class="toggle-info-btn" aria-expanded="false">Leer más</button>
+                    <div class="info-adicional">
+                        <p><strong>Ejemplo:</strong> Asegurar que los comandos enviados a un brazo robótico en una fábrica no puedan ser interceptados o modificados por un atacante, lo que podría causar daños físicos o detener la producción.</p>
+                    </div>
+                </div>
+                <div class="concepto-card">
+                    <i class="fas fa-wifi fa-2x"></i>
+                    <h3>Redes de Sensores Inalámbricos (WSN)</h3>
+                    <p>Pequeños dispositivos (sensores) que recolectan y transmiten datos. Suelen tener recursos limitados, haciéndolos vulnerables a ataques específicos.</p>
+                    <button class="toggle-info-btn" aria-expanded="false">Leer más</button>
+                    <div class="info-adicional">
+                        <p><strong>Ejemplo:</strong> Un atacante podría intentar agotar la batería de los sensores enviándoles continuamente peticiones falsas, interrumpiendo la monitorización ambiental o de seguridad.</p>
+                    </div>
+                </div>
+                 <div class="concepto-card">
+                    <i class="fas fa-balance-scale fa-2x"></i>
+                    <h3>Equilibrio de Nash Bayesiano</h3>
+                    <p>En juegos donde los jugadores no conocen toda la información sobre los otros (sus "tipos" o intenciones), toman la mejor decisión posible basándose en sus creencias y las probabilidades.</p>
+                    <button class="toggle-info-btn" aria-expanded="false">Leer más</button>
+                    <div class="info-adicional">
+                        <p><strong>Ejemplo:</strong> Un defensor no sabe si un atacante es altamente cualificado o un novato. El defensor elige una estrategia de defensa (ej. compleja o simple) basándose en la probabilidad que asigna a cada tipo de atacante y cómo cree que cada tipo respondería.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="casos">
+            <h2>Ejemplos de Ataque y Defensa</h2>
+            <div class="casos-grid">
+                <div class="caso-estudio">
+                    <i class="fas fa-battery-quarter fa-2x"></i>
+                    <h3>Caso 1: Defensa contra Agotamiento de Batería en WSN (Engaño)</h3>
+                    <p>Un atacante intenta agotar la batería de un sensor enviándole muchas peticiones. El sensor puede "engañar" al atacante sobre su nivel de batería.</p>
+                    <div class="quiz-container">
+                        <p><strong>Pregunta:</strong> Si el sensor tiene poca batería, ¿qué señal debería enviar para engañar al atacante y conservar energía?</p>
+                        <label><input type="radio" name="wsn-bateria" value="baja"> Señal de "Batería Baja" (Honesta)</label><br>
+                        <label><input type="radio" name="wsn-bateria" value="alta"> Señal de "Batería Alta" (Engañosa)</label><br>
+                        <button class="verificar-btn" data-quiz="wsn-bateria" data-correcta="alta">Verificar</button>
+                        <p class="feedback"></p>
+                    </div>
+                </div>
+
+                <div class="caso-estudio">
+                    <i class="fas fa-sliders-h fa-2x"></i>
+                    <h3>Caso 2: Detección de Ataques Sigilosos a Sensores (MTD)</h3>
+                    <p>Un atacante modifica sutilmente los datos de un sensor para pasar desapercibido. El defensor usa MTD cambiando aleatoriamente los umbrales de detección.</p>
+                    <div class="slider-container">
+                        <label for="mtd-umbral">Ajusta el Umbral de Detección (MTD):</label>
+                        <input type="range" id="mtd-umbral" name="mtd-umbral" min="1" max="10" value="5">
+                        <p>Valor del Umbral: <span id="umbral-valor">5</span></p>
+                        <p id="mtd-feedback">Con MTD, el atacante no sabe cuál es el umbral actual, lo que aumenta la probabilidad de ser detectado si intenta un ataque sigiloso.</p>
+                    </div>
+                </div>
+
+                <div class="caso-estudio">
+                    <i class="fas fa-theater-masks fa-2x"></i>
+                    <h3>Caso 3: Ataques Anti-Honeypot en CPS</h3>
+                    <p>Un atacante sospecha que un sistema podría ser un honeypot (señuelo). ¿Cómo podría intentar confirmarlo?</p>
+                    <div class="quiz-container">
+                        <p><strong>Pregunta:</strong> ¿Cuál de estas acciones ayudaría al atacante a identificar un honeypot?</p>
+                        <label><input type="radio" name="honeypot" value="a"> Lanzar un ataque destructivo inmediatamente.</label><br>
+                        <label><input type="radio" name="honeypot" value="b"> Buscar interacciones o datos demasiado "perfectos" o limitados.</label><br>
+                        <label><input type="radio" name="honeypot" value="c"> Ignorar el sistema y buscar otro objetivo.</label><br>
+                        <button class="verificar-btn" data-quiz="honeypot" data-correcta="b">Verificar</button>
+                        <p class="feedback"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="explora">
+            <h2>Profundiza en el Conocimiento</h2>
+            <p>La ciberseguridad estratégica es un campo vasto y en constante evolución. Aquí tienes algunos recursos para seguir aprendiendo:</p>
+            <ul>
+                <li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10302397" target="_blank" rel="noopener noreferrer">Artículo: Defensa de objetivos móviles basada en el equilibrio de Nash bayesiano contra ataques sigilosos de sensores (PDF)</a></li>
+                <li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9222523" target="_blank" rel="noopener noreferrer">Artículo: Estrategia de ataque óptima con anti-honeypot habilitado para sistemas ciberfísicos industriales (PDF)</a></li>
+                <li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10820340" target="_blank" rel="noopener noreferrer">Artículo: Ciberengaño contra ataques DoS de descarga de batería en redes de sensores inalámbricos mediante el juego de señalización (PDF)</a></li>
+                <li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10975149" target="_blank" rel="noopener noreferrer">Artículo: Estrategia de equilibrio de ataque y defensa en redes informáticas basada en la teoría de juegos de señales de Markov (PDF)</a></li>
+                <li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10975149" target="_blank" rel="noopener noreferrer">Artículo: Modelo de engaño de dos capas basado en juegos de señalización contra ciberataques a sistemas ciberfísicos (PDF)</a></li>
+            </ul>
+            <button id="ask-ai-btn" class="cta-button">¿Tienes más preguntas? ¡Pregúntale a nuestra IA!</button>
+        </section>
+
+        <section id="contacto-simulado" class="contacto-form-section">
+            <h2>Contáctanos</h2>
+            <p>Si tienes alguna pregunta o comentario, ¡nos encantaría escucharte!</p>
+            <form id="simulated-contact-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Tu Pregunta/Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit" class="cta-button">Enviar Mensaje</button>
+                <p id="form-feedback" class="feedback"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Información de Contacto: <a href="ivan.fernandez@unl.edu.ec">ivan.fernandez@unl.edu.ec</a></p>
+        <div class="social-icons">
+            <a href="https://github.com/IvanFernandez02" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+        <p>© 2024 Ciberseguridad Estratégica. Todos los derechos reservados.</p>
+    </footer>
+
+    <div id="ai-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">×</span>
+            <h2>Pregúntale a la IA</h2>
+            <p>Escribe tu pregunta sobre ciberseguridad estratégica:</p>
+            <textarea id="ai-question" rows="4" placeholder="Ej: ¿Cómo funciona MTD en la práctica?"></textarea>
+            <button id="submit-ai-question-btn" class="cta-button">Enviar Pregunta</button>
+            <p id="ai-response" class="feedback"></p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
