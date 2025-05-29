@@ -52,7 +52,7 @@ Simulaciones prácticas para aplicar conceptos:
 
 ### 🔻 Pie de Página
 - Correo de contacto.
-- Íconos sociales (Twitter, LinkedIn, GitHub).
+- Íconos sociales (GitHub).
 - Información de derechos de autor.
 
 ---
@@ -61,7 +61,7 @@ Simulaciones prácticas para aplicar conceptos:
 
 - **HTML5** — Estructura de la web.
 - **CSS3** — Estilización moderna y responsiva.
-- **JavaScript (ES6+)** — Lógica e interactividad.
+- **JavaScript** — Lógica e interactividad.
 - **Font Awesome** — Íconos visuales.
 
 ---
