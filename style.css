@@ -134,7 +134,7 @@ section {
 section h2 {
     font-size: 2.2rem;
     margin-bottom: 2.5rem;
-    color: #2c3e50; /* Azul oscuro para títulos de sección */
+    color: white; /* Azul oscuro para títulos de sección */
     position: relative;
     display: inline-block;
 }
